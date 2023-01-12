@@ -21,3 +21,9 @@ kubectl apply -f mongo.yaml
 
 
 minikube ip 
+
+kubectl get all
+la partie mongo doit etre dans un statefulset 
+
+## Pour palier   au  bug quand  l'image n'arrive pas a se lancer 
+minikube ssh docker pull
